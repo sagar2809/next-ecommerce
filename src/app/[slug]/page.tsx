@@ -5,7 +5,7 @@ import Add from "./../../components/Add";
 
 const SinglePage = () => {
   return (
-    <div className="h-max px-4 md:px-8 lg:px-16 xl:px-32 2xl:px-64 relative flex flex-col lg:flex-row gap-16 lg:h-max 2xl:h-max">
+    <div className="h-max px-4 md:px-8 lg:px-16 xl:px-32 2xl:px-64 relative flex flex-col lg:flex-row gap-16 overflow-x-scroll scrollBar-hide">
       {/* IMAGE CONTAINER */}
       <div className="w-full lg:w-1/2 lg:sticky top-20 h-max">
         <ProductImages></ProductImages>
@@ -37,7 +37,7 @@ const SinglePage = () => {
               voluptatum at aliquam! Minima, ea.
             </p>
           </div>
-          {/* <div className="text-sm my-6">
+          <div className="text-sm my-6">
             <h4 className="font-medium mb-4">Title</h4>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -45,8 +45,8 @@ const SinglePage = () => {
               earum cumque unde itaque quidem libero quos eius deleniti fugiat
               voluptatum at aliquam! Minima, ea.
             </p>
-          </div> */}
-          {/* <div className="text-sm my-6">
+          </div>
+          <div className="text-sm my-6">
             <h4 className="font-medium mb-4">Title</h4>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -54,7 +54,7 @@ const SinglePage = () => {
               earum cumque unde itaque quidem libero quos eius deleniti fugiat
               voluptatum at aliquam! Minima, ea.
             </p>
-          </div> */}
+          </div>
         </div>
       </div>
     </div>
