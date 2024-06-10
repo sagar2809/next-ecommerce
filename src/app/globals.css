@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.scrollBar-hide::-webkit-scrollbar{
+    display: none;
+}
+.scrollBar-hide{
+   scrollbar-width: none;
+}
